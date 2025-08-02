@@ -1,0 +1,17 @@
+BLD-Couverture/
+├── index.html
+├── about.html
+├── services.html
+├── galerie.html
+├── contact.html
+├── faq.html
+├── legal.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   ├── logo.png
+│   ├── hero.jpg
+│   └── photoX.jpg
+└── README.md
