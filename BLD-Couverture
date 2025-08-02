@@ -1,15 +1,574 @@
 BLD-Couverture/
 ├── index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>BLD Couverture - Accueil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="assets/hero.jpg" alt="Toiture rénovée" class="hero-img">
+      <div class="hero-text">
+        <h1>BLD Couverture</h1>
+        <p>Votre spécialiste de la toiture et de la charpente à Boulogne-sur-Mer et alentours</p>
+        <a href="contact.html" class="btn">Demandez votre devis gratuit</a>
+      </div>
+    </section>
+
+    <section class="points-forts">
+      <h2>Nos engagements</h2>
+      <div class="icons-row">
+        <div class="icon-block">
+          <i class="fas fa-hard-hat"></i>
+          <h3>Expertise</h3>
+          <p>Plus de 25 ans d'expérience dans la couverture et la charpente.</p>
+        </div>
+        <div class="icon-block">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Qualité</h3>
+          <p>Matériaux haut de gamme et respect des normes.</p>
+        </div>
+        <div class="icon-block">
+          <i class="fas fa-clock"></i>
+          <h3>Réactivité</h3>
+          <p>Intervention rapide pour vos urgences toiture.</p>
+        </div>
+        <div class="icon-block">
+          <i class="fas fa-handshake"></i>
+          <h3>Accompagnement</h3>
+          <p>Conseils personnalisés et devis gratuit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation">
+      <h2>Qui sommes-nous ?</h2>
+      <p>
+        BLD Couverture, entreprise artisanale basée à Boulogne-sur-Mer, met à votre service son savoir-faire pour tous vos travaux de couverture, charpente, zinguerie et isolation. 
+        Nous intervenons auprès des particuliers et professionnels, pour le neuf comme la rénovation. 
+        Notre équipe qualifiée vous garantit des réalisations conformes aux meilleures pratiques et une écoute attentive à chaque étape de votre projet.
+      </p>
+      <a href="about.html" class="btn">En savoir plus</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture | Site réalisé avec Copilot</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
 ├── about.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>À propos - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>À propos de BLD Couverture</h1>
+    <section>
+      <h2>Notre histoire</h2>
+      <p>
+        Fondée en 1998 à Boulogne-sur-Mer, BLD Couverture s’est imposée comme une référence locale dans les métiers de la toiture et de la charpente.
+        Depuis plus de 25 ans, notre équipe d’artisans met son savoir-faire au service des particuliers et professionnels.
+      </p>
+    </section>
+    <section>
+      <h2>Nos valeurs</h2>
+      <ul>
+        <li><strong>Professionnalisme :</strong> Respect des délais, du budget, et des normes de sécurité.</li>
+        <li><strong>Proximité :</strong> Un interlocuteur dédié, une équipe locale à votre écoute.</li>
+        <li><strong>Garantie :</strong> Tous nos travaux sont couverts par une garantie décennale.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>L’équipe</h2>
+      <p>
+        Notre équipe est composée d’artisans expérimentés, passionnés par leur métier. Nous réalisons chaque projet avec soin, du diagnostic à la finition.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── services.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Nos Services</h1>
+    <div class="services-list">
+      <div class="service-item">
+        <i class="fas fa-home"></i>
+        <h2>Couverture</h2>
+        <p>Pose et rénovation de toitures en tuiles, ardoises, zinc, bac acier. Étanchéité et isolation.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-tree"></i>
+        <h2>Charpente</h2>
+        <p>Construction, rénovation, traitement et renforcement de charpentes traditionnelles ou industrielles.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-broom"></i>
+        <h2>Entretien</h2>
+        <p>Nettoyage, démoussage, contrôle annuel, réparation de toiture et gouttières.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-tools"></i>
+        <h2>Dépannage urgent</h2>
+        <p>Intervention rapide en cas de fuite, sinistre, ou dégâts liés aux intempéries.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-file-alt"></i>
+        <h2>Devis gratuit</h2>
+        <p>Déplacement et étude de votre projet sans engagement.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── galerie.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Galerie Photos</h1>
+    <div class="gallery">
+      <img src="assets/photo1.jpg" alt="Chantier 1">
+      <img src="assets/photo2.jpg" alt="Chantier 2">
+      <img src="assets/photo3.jpg" alt="Chantier 3">
+      <img src="assets/photo4.jpg" alt="Chantier 4">
+      <img src="assets/photo5.jpg" alt="Chantier 5">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── contact.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact</h1>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p>Ou contactez-nous au <strong>06 12 34 56 78</strong></p>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── faq.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>FAQ - Questions fréquentes</h1>
+    <section class="faq-list">
+      <h2>Quels types de toitures proposez-vous ?</h2>
+      <p>Nous réalisons tous types de toitures : tuiles, ardoises, zinc, bac acier, etc. Nous adaptons nos solutions à votre projet et votre budget.</p>
+      <h2>Intervenez-vous en cas d’urgence ?</h2>
+      <p>Oui, nous assurons les dépannages d’urgence (fuites, dégâts suite à intempéries) dans les meilleurs délais.</p>
+      <h2>Faites-vous des devis gratuits ?</h2>
+      <p>Bien sûr ! Nous nous déplaçons pour étudier votre projet et vous proposons un devis gratuit et détaillé.</p>
+      <h2>Proposez-vous des garanties ?</h2>
+      <p>Toutes nos prestations sont couvertes par la garantie décennale. Nous utilisons des matériaux certifiés et respectons les normes en vigueur.</p>
+      <h2>Pouvez-vous entretenir ma toiture ?</h2>
+      <p>Oui, nous proposons des contrats d’entretien annuel : démoussage, nettoyage, inspection.</p>
+      <h2>Réalisez-vous la pose de fenêtres de toit ?</h2>
+      <p>Nous posons tous types de fenêtres de toit (Velux, Roto, etc.), ainsi que l’isolation autour.</p>
+      <h2>Comment prendre rendez-vous ?</h2>
+      <p>Vous pouvez nous contacter via le formulaire de contact ou par téléphone au 06 12 34 56 78.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── legal.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mentions légales - BLD Couverture</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="BLD Couverture" class="logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="legal.html">Mentions légales</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Mentions légales</h1>
+    <section>
+      <h2>Éditeur du site</h2>
+      <p>
+        Raison sociale : BLD Couverture<br>
+        Forme juridique : Entreprise individuelle (ou SARL, SAS, selon ton statut)<br>
+        Siège social : 10 rue de la Toiture, 62200 Boulogne-sur-Mer, France<br>
+        Téléphone : 06 12 34 56 78<br>
+        Email : contact@bld-couverture.fr<br>
+        SIRET : 123 456 789 00012<br>
+        N° TVA intracommunautaire : FR12 123456789<br>
+        Responsable de la publication : Monsieur Dupont, Gérant
+      </p>
+    </section>
+    <section>
+      <h2>Hébergement du site</h2>
+      <p>
+        Hébergeur : Netlify Inc.<br>
+        Adresse : 2325 3rd Street Suite 296, San Francisco, CA 94107, USA<br>
+        Site : <a href="https://www.netlify.com/" target="_blank">www.netlify.com</a>
+      </p>
+    </section>
+    <section>
+      <h2>Propriété intellectuelle</h2>
+      <p>
+        Le contenu du site (textes, images, logos, etc.) est la propriété exclusive de BLD Couverture. Toute reproduction, représentation ou diffusion, même partielle, sans autorisation est interdite.
+      </p>
+    </section>
+    <section>
+      <h2>Protection des données personnelles</h2>
+      <p>
+        Les informations recueillies via le formulaire de contact sont destinées exclusivement à BLD Couverture, dans le but de traiter votre demande. Conformément à la loi « Informatique et Libertés » et au RGPD, vous disposez d’un droit d’accès, de rectification, d’opposition et de suppression des données vous concernant. Pour exercer ce droit, contactez-nous à l’adresse indiquée ci-dessus.
+      </p>
+    </section>
+    <section>
+      <h2>Cookies</h2>
+      <p>
+        Le site peut utiliser des cookies à des fins de mesures d’audience. Vous pouvez refuser leur utilisation en paramétrant votre navigateur.
+      </p>
+    </section>
+    <section>
+      <h2>Responsabilité</h2>
+      <p>
+        BLD Couverture s’efforce de fournir des informations précises et à jour, mais ne saurait être tenu responsable des erreurs, omissions ou d’une éventuelle indisponibilité du site.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BLD Couverture</p>
+  </footer>
+</body>
+</html>
 ├── css/
-│   └── style.css
+│   └── style.css 
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #153b50;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.logo {
+  max-width: 90px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e2ebf5;
+  padding: 2em 1em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+.hero-img {
+  max-width: 380px;
+  border-radius: 12px;
+  margin-right: 2em;
+}
+.hero-text {
+  max-width: 450px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1em;
+  background: #153b50;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #153b50;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.points-forts {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 2em;
+  box-shadow: 0 0 8px #ccc;
+  text-align: center;
+}
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.icon-block {
+  background: #f1f6fa;
+  border-radius: 8px;
+  padding: 1em;
+  width: 160px;
+  box-shadow: 0 0 6px #cce;
+  margin: 1em 0;
+}
+.icon-block i {
+  font-size: 2em;
+  color: #153b50;
+  margin-bottom: 0.5em;
+}
+
+.presentation {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 8px #ccc;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.service-item {
+  background: #f1f6fa;
+  border-radius: 8px;
+  padding: 1em;
+  width: 200px;
+  box-shadow: 0 0 6px #cce;
+  text-align: center;
+}
+.service-item i {
+  font-size: 2em;
+  color: #153b50;
+  margin-bottom: 0.5em;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  max-width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #aaa;
+  margin-bottom: 1em;
+}
+
+form {
+  background: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 8px #ccc;
+}
+
+label {
+  display: block;
+  margin: 1em 0 0.3em 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7em;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  margin-bottom: 1em;
+}
+
+button[type="submit"] {
+  background: #153b50;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background: #1b4c6b;
+}
+
+/* FAQ */
+.faq-list h2 {
+  margin-top: 2em;
+  font-size: 1.15em;
+  color: #153b50;
+}
+.faq-list p {
+  margin-bottom: 1em;
+}
 ├── js/
 │   └── script.js
+// Script de base, personnalisation possible ici.
 ├── assets/
 │   ├── logo.png
 │   ├── hero.jpg
